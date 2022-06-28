@@ -67,7 +67,7 @@ header .menu{
     margin-bottom: 10px;
 }
 
-.apresentacao .texto-apresentacao a{
+.btn{
     
     background-color: #122A57;
     color: #fff;
@@ -168,3 +168,72 @@ header .menu{
     width: 80%;
     margin: auto;
 }
+
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#planos h2{
+    color: #122A57;
+    font-size: 32px;
+    padding-top: 50px;
+}
+
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.item-plano{
+    flex: 1;
+    border: 4px solid #122A57;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 240px;
+}
+
+.item-plano .btn{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.item-plano h3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-plano h3::after{
+    content: "";
+    background-color: #122A57;
+    width: 50%;
+    height: 3px;
+    margin: 10px auto 20px;
+}
+
+.item-plano ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.item-plano ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item-plano ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #122A57;
+    margin-right: 5px;
+}
+
+
