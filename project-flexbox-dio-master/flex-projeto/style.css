@@ -90,6 +90,10 @@ header .menu{
     justify-content: space-between;
 }
 
+#quem-somos .qs_text{
+    width: 35%;
+}
+
 #quem-somos h2{
     font-size: 32px;
     color: #122A57;
@@ -113,12 +117,14 @@ header .menu{
 }
 
 #quem-somos img{
-    min-width: 420px;
+    min-width: 620px;
+    width: 50%;
 }
 
 .container-externo{
     background-color: #122A57;
     width: 100%;
+    margin: 120px 0 0;
 }
 
 #servicos{
@@ -172,12 +178,12 @@ header .menu{
 #planos{
     flex-direction: column;
     min-height: 100vh;
+    justify-content: center;
 }
 
 #planos h2{
     color: #122A57;
     font-size: 32px;
-    padding-top: 50px;
 }
 
 .list-planos{
